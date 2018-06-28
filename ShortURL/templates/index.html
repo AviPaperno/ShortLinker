@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Сокращатель ссылок</title>
+</head>
+<body>
+<form action="" method="post">
+    {{ form.hidden_tag() }}
+    {{ form.name.label }} {{ form.name() }}
+    {{ form.submit() }}
+{% endif %}
+</form>
+</body>
+</html>
